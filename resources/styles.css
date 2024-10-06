@@ -1,0 +1,83 @@
+/* Color Scheme Styles*/
+html {
+    font-size: 16px;
+    font-family: 'Suse', sans-serif;
+    color: #F0EAD6;
+}
+
+body {
+    background-color: black;
+}
+
+.card {
+    margin: 2em auto;
+    padding: 2em;
+    width: 80%;
+    height: 100%;
+    background: #1c1f2b;
+    text-align: center;
+    border-radius: 10px;
+    position: relative
+}
+
+.card::after, .card::before {
+   content: '';
+   position: absolute; 
+   height: 100%;
+   width: 100%;
+   background-image: conic-gradient(#FF0095,#FF4545, #00FF99, #006AFF, #FF0095);
+   top: 50%;
+   left: 50%;
+   translate: -50% -50%;
+   z-index: -1;
+   padding: 3px;
+   border-radius: 10px;
+}
+
+.card::before {
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+/* Header Styles */ 
+.my-name {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#nav-bar {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.nav-bar-list {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    margin: var(--spacing-1);
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul::before {
+    color: #F0EAD6;
+}
+
+ul::after {
+    color: #ADD8E6
+}
