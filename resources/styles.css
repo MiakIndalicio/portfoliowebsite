@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-.card {
+#card {
     margin: 2em auto;
     padding: 2em;
     width: 80%;
@@ -20,7 +20,7 @@ body {
     position: relative
 }
 
-.card::after, .card::before {
+#card::after, #card::before {
    content: '';
    position: absolute; 
    height: 100%;
@@ -34,7 +34,7 @@ body {
    border-radius: 10px;
 }
 
-.card::before {
+#card::before {
     filter: blur(1.5rem);
     opacity: 0.5;
 }
@@ -70,14 +70,35 @@ li {
     margin-right: 1.5rem;
 }
 
+
 a {
     text-decoration: none;
+    color: #F0EAD6 !important;
 }
 
-ul::before {
-    color: #F0EAD6;
+a:hover {
+    color: #ADD8E6 !important;
 }
 
-ul::after {
-    color: #ADD8E6
+ a::before {
+    color: #F0EAD6 !important;
+}
+
+ a::after {
+    color: #ADD8E6 !important;
+}
+
+/* Body Styles */
+
+.projects, h3 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.about-me-description {
+    font-size: 1.5rem;
+}
+
+.about-me-title {
+    font-size: 2rem;
 }

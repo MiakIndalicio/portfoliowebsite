@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link>
+    <link rel="stylesheet" href="./resources/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Header Section -->
   <header class="my-name">
     <h1>Cody Norvick</h1>
   </header>  
   <section class="nav-bar">
     <div id="nav-bar">
         <ul class="nav-bar-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="./resources/ContactMe.html">Contact Me</a></li>
         </ul>
     </div>
   </section>
-  <section class="card">
+
+  <!-- About Me Section -->
+  <section id="card">
     <div class="about-me">
-        <h2>About Me</h2>
-        <p>Hello! My name is Cody and I am an aspiring programmer who is still learning and honing my craft! Here you will be able to see what projects I am working on,
+        <h2 class="about-me-title">About Me</h2>
+        <p class="about-me-description">Hello! My name is Cody and I am an aspiring programmer who is still learning and honing my craft! Here you will be able to see what projects I am working on,
           as well as what I have done in the past!</p>
         <br>
-        <p>My biggest goal is to work my way up from being a junior engineer to a senior engineer and eventually work in the cybersecurity field. My biggest goal at the moment is to get my first job in programming
+        <p class="about-me-description">My biggest goal is to work my way up from being a junior engineer to a senior engineer and eventually work in the cybersecurity field. My biggest goal at the moment is to get my first job in programming
           to grow my skills and show what an asset I can be to any company I join.</p>  
         <br>
-        <p>In my free time I enjoy gaming, playing guitar and working on some projects. I have been interested in programming since I was a teenager but I finally gained the courage to take the steps into becoming a programmer!</p>
+        <p class="about-me-description">In my free time I enjoy gaming, playing guitar and working on some projects. I have been interested in programming since I was a teenager but I finally gained the courage to take the steps into becoming a programmer!</p>
         <br>
-        <p>So I hope you enjoy your time here on my island in the internet. I will be constantly updating what I am working on and what I have completed.</p>
+        <p class="about-me-description">So I hope you enjoy your time here on my island in the internet. I will be constantly updating what I am working on and what I have completed.</p>
     </div>
-  </section>
-  <section class="card">
+  </section> 
+
+  <!-- Projects Section -->
+
+  <section id="card">
     <div class="projects">
-      <h2>Projects</h2>
-      <details class="project" open>
-        <summary>
-          <img src="" alt="" />
-          <h3>W.I.P Patient Database</h3>
-          <p>This is the current project I am working on in my freetime. I currently don't have much done as I am
-            moving the code from python to html/css/javacsript. I will post more as it gets done!
-          </p>
+      <h2 class="projects-title">Projects</h2>
+      <details class="project">
+        <summary class="project-title">
+          <h3 class="projects-name">W.I.P Patient Database</h3>
         </summary>
+        <img src="" alt="" />
+        <p class="project-description">This is the current project I am working on in my freetime. I currently don't have much done as I am
+          moving the code from python to html/css/javacsript. I will post more as it gets done!
+        </p>
       </details>
-      <details class="project" open>
-        <summary>
-          <img src="" alt="" />
+      <details id="project">
+        <summary class="project-title">
           <h3>Random Message Generator</h3>
-          <p>This was a short codecademy project that played a random message upon program execution.</p>
         </summary>
+        <img src="" alt="" />
+        <p class="project-description">This was a short codecademy project that played a random message upon program execution.</p>
       </details>
-      <details class="project" open>
-        <summary>
-          <img src="" alt="" />
+      <details class="project">
+        <summary class="project-title">
           <h3>Biodiversity Analysis</h3>
-          <p>In this data analysis project, I analyzed some biodiversity information and came to a conclusion based on what I analyzed!</p>
         </summary>
+        <img src="" alt="" />
+        <p class="project-description">In this data analysis project, I analyzed some biodiversity information and came to a conclusion based on what I analyzed!</p>
     </div>
   </section>
-  <section class="card">
+
+  <!-- Skills Section -->
+  <section id="card">
     <div class="skills">
-      <h2>Skills</h2>
+      <h2 class="skills-title">Skills</h2>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-python"></i>
+      <i class="fa-solid fa-file-excel"></i>
     </div>
   </section>
 </body>
+<script src="https://kit.fontawesome.com/d324c73533.js" crossorigin="anonymous"></script>
 </html>
