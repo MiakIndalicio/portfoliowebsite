@@ -84,7 +84,7 @@ a:hover {
     color: #F0EAD6 !important;
 }
 
- a::after {
+ a:focus {
     color: #ADD8E6 !important;
 }
 
