@@ -11,6 +11,7 @@ body {
 
 #card {
     margin: 2em auto;
+    margin-bottom: -1em;
     padding: 2em;
     width: 80%;
     height: 100%;
@@ -38,6 +39,7 @@ body {
     filter: blur(1.5rem);
     opacity: 0.5;
 }
+
 
 /* Header Styles */ 
 .my-name {
@@ -101,4 +103,36 @@ a:hover {
 
 .about-me-title {
     font-size: 2rem;
+}
+
+.projects-title {
+    font-size: 2rem;
+}
+
+.project-description {
+    font-size: 1.5rem;
+}
+
+/* Skills Styles */ 
+
+.skills-title {
+    font-size: 2rem;
+}
+.fa-brands, .fa-solid {
+    font-size: 2rem;
+    padding: 3px;
+}
+
+/* Contact Page Styles */
+
+.contact-info {
+    font-size: 2rem;
+}
+
+.contact-me-phone, .contact-me-email, .contact-description {
+    font-size: 1.5rem;
+}
+
+.icon {
+    margin-bottom: 1rem;
 }
