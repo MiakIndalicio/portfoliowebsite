@@ -107,6 +107,7 @@ a:hover {
 
 .projects-title {
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .project-description {
